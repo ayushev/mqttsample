@@ -50,10 +50,10 @@ or in the "license" file accompanying this file. This file is distributed on an 
   /** controller of the app */
   function AppController(scope){
     this.clientId = 'someClientId';
-    this.endpoint = null;
-    this.accessKey = null;
+    this.endpoint = 'ayewfdvl8ay7c-ats.iot.eu-central-1.amazonaws.com';
+    this.accessKey = 'AKIA5H72X4PJ3IZB7B5Q';
     this.secretKey = null;
-    this.regionName = 'us-east-1';
+    this.regionName = 'eu-central-1';
     this.logs = new LogService();
     this.clients = new ClientControllerCache(scope, this.logs);
   }
