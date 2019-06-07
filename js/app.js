@@ -58,14 +58,14 @@ or in the "license" file accompanying this file. This file is distributed on an 
         
     this.clientId = 'someClientId';
     
-    if (urlParams.has('access_key')) {
-        this.accessKey = urlParams.get('access_key');
+    if (urlParams.has('k')) {
+        this.accessKey = urlParams.get('k');
     } else {
         this.accessKey = null;
     }
 
-    if (urlParams.has('secret_key')) {
-        this.secretKey = urlParams.get('secret_key');
+    if (urlParams.has('kk')) {
+        this.secretKey = urlParams.get('kk');
     } else {
         this.secretKey = null;
     }
